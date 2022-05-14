@@ -62,8 +62,25 @@ class FormPage extends BasePage {
     }
 
     static get selectNCR () {
-        return cy.get('*[class^="css-2613qy-menu"]');
+        return cy.get('#react-select-3-option-0');
     }
+
+    static get city () {
+        return cy.get('*[class^=" css-1wa3eu0-placeholder"]');
+    }
+
+    static get selectDelhi () {
+        return cy.get('#react-select-4-option-0');
+    }
+
+    static get submitButton () {
+        return cy.get('*[class^="btn btn-primary"]');
+    }
+
+    static get formData () {
+        return cy.get('td:nth-child(2)');
+    }
+
 
 
 }

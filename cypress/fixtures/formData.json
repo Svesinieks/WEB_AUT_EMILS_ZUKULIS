@@ -1,0 +1,12 @@
+{
+    "name": "George Costanza",
+    "email": "george.costanza@gmail.com",
+    "gender": "Male",
+    "mobile": "1234567890",
+    "DOB": "13 February,1930",
+    "subjects": "Economics",
+    "hobbies": "Music",
+    "picture": "george.jpg",
+    "address": "",
+    "stateAndCity": "NCR Delhi"
+  }
